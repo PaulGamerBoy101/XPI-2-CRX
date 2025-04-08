@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "XPI to CRX Converter",
+  "version": "1.0",
+  "description": "Convert an XPI file to a Chrome-compatible extension and prepare it for manual installation.",
+  "permissions": [
+    "downloads"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
+}
